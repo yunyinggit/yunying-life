@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #14161a;
+    --muted: #5c626b;
+    --rule: #e3e5e9;
+    --bg: #fbfbfc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #eceef1; --muted: #9aa0a8; --rule: #2a2d33; --bg: #101215; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 5rem 1.5rem 7rem;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 41rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 0.4rem; }
+  h2 { font-size: 1.06rem; font-weight: 600; letter-spacing: -0.01em; margin: 3rem 0 0.75rem; }
+  p, li { color: var(--ink); margin: 0 0 1rem; }
+  ul { padding-left: 1.15rem; margin: 0 0 1rem; }
+  li { margin-bottom: 0.5rem; }
+  .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 3rem; }
+  .lede { color: var(--muted); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3.5rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: 0.88rem; }
+  a { color: inherit; text-underline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Pulse · Last updated 20 August 2026</p>
+
+<p class="lede">Pulse turns one tap into a gentle vibration on one other person's phone. It is built for two people, and it is built to know as little about them as possible. There are no accounts, no profiles, no analytics, and no advertising.</p>
+
+<h2>What Pulse stores</h2>
+<p>To deliver a tap from one phone to the other, the Pulse server keeps a small record for each connection:</p>
+<ul>
+  <li><strong>A random device identifier.</strong> The app generates a random UUID the first time it launches and stores it on your device. It is not your Apple ID, not the advertising identifier, and not tied to your device hardware. Deleting the app discards it.</li>
+  <li><strong>A display name.</strong> Whatever you type when you set up the app, up to 30 characters. It is shown only to the one person you are connected with. It does not need to be your real name.</li>
+  <li><strong>A six-character invite code</strong>, randomly generated, which admits exactly two phones and then closes permanently.</li>
+  <li><strong>A session token</strong>, randomly generated, so the server can tell your phone apart from the other one.</li>
+  <li><strong>A push notification token</strong> issued by Apple, used only to deliver a vibration to the other phone.</li>
+  <li><strong>Timestamps.</strong> When each phone joined, when it was last seen, and when each tap was sent. A tap carries no content — only the moment it happened. The server keeps at most the 500 most recent taps per connection.</li>
+</ul>
+
+<h2>What Pulse does not collect</h2>
+<ul>
+  <li>No email address, phone number, or real name.</li>
+  <li>No location data.</li>
+  <li>No contacts, photos, microphone, or camera access.</li>
+  <li>No message content — a tap has no content to collect.</li>
+  <li>No advertising identifier and no tracking across apps or websites.</li>
+  <li>No analytics, crash reporting, or behavioural profiling.</li>
+</ul>
+<p>Pulse contains no third-party SDKs. Nothing in the app reports to an analytics, advertising, or attribution service.</p>
+
+<h2>How the information is used</h2>
+<p>Solely to connect two phones and deliver a tap between them. The data is never used to build a profile, never sold, never rented, and never used for advertising or marketing.</p>
+
+<h2>Who it is shared with</h2>
+<p>Only Apple. Delivering a notification requires sending the push token and the notification to the Apple Push Notification service. Apple's handling of that data is governed by Apple's own privacy policy. Pulse shares data with no one else.</p>
+
+<h2>How long it is kept</h2>
+<p>When you disconnect, your device's record — including its display name and push token — is removed from the connection. Once both phones have left, the connection and its entire tap history are deleted from the server. Older taps are discarded automatically once a connection exceeds 500 of them.</p>
+
+<h2>Deleting your data</h2>
+<p>Disconnect inside the app, or delete the app and ask us to remove the connection. Because Pulse holds no account and no email address, please include your six-character invite code so the right connection can be found. If you are unable to provide it, we may be unable to identify your data.</p>
+
+<h2>Security</h2>
+<p>All traffic between the app and the server uses encrypted HTTPS connections. Session tokens and invite codes are generated with a cryptographically secure random number generator. Stored data is kept in a file readable only by the server process. No system is perfectly secure, but Pulse is designed to hold so little that there is very little to lose.</p>
+
+<h2>Children</h2>
+<p>Pulse is not directed at children under 13, and we do not knowingly collect information from them.</p>
+
+<h2>Notifications</h2>
+<p>Pulse asks for notification permission so a tap can reach you when the app is closed. You can decline or revoke it in iOS Settings at any time; the rest of the app continues to work.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the date at the top of this page will be updated. Material changes will be noted in the app.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy, or requests to delete data: <a href="mailto:0xshxyz@gmail.com">0xshxyz@gmail.com</a>.</p>
+
+<hr>
+<footer><a href="/">Pulse</a></footer>
+
+</main>
+</body>
+</html>

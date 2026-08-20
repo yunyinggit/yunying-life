@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pulse — one tap, felt by someone you care about.">
+  <title>Pulse</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#fbfbfc; --ink:#15171a; --muted:#62666d; --rule:#e4e6ea; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#101215; --ink:#f0f1f3; --muted:#a0a5ad; --rule:#2a2d33; } }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:2rem; background:var(--bg); color:var(--ink); font:400 17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(38rem,100%); }
+    h1 { margin:0 0 .5rem; font-size:clamp(2.8rem,10vw,5rem); line-height:1; letter-spacing:-.055em; }
+    p { margin:.5rem 0; color:var(--muted); }
+    nav { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule); display:flex; gap:1.5rem; }
+    a { color:var(--ink); text-underline-offset:4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Pulse</h1>
+    <p>One tap, felt by someone you care about.</p>
+    <nav aria-label="Legal and support">
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="mailto:0xshxyz@gmail.com">Support</a>
+    </nav>
+  </main>
+</body>
+</html>
