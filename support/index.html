@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Help, contact information, and troubleshooting for Pulse.">
+<title>Pulse — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #14161a;
+    --muted: #5c626b;
+    --rule: #e3e5e9;
+    --bg: #fbfbfc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #eceef1; --muted: #9aa0a8; --rule: #2a2d33; --bg: #101215; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 5rem 1.5rem 7rem;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 41rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 0.4rem; }
+  h2 { font-size: 1.06rem; font-weight: 600; letter-spacing: -0.01em; margin: 3rem 0 0.75rem; }
+  p, li { color: var(--ink); margin: 0 0 1rem; }
+  ul { padding-left: 1.15rem; margin: 0 0 1rem; }
+  li { margin-bottom: 0.65rem; }
+  .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 3rem; }
+  .lede { color: var(--muted); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3.5rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: 0.88rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+  a { color: inherit; text-underline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Pulse Support</h1>
+<p class="meta">Help for Pulse on iPhone</p>
+
+<p class="lede">Pulse connects exactly two phones. One intentional tap becomes a quiet notification for the other person.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:0xshxyz@gmail.com?subject=Pulse%20Support">0xshxyz@gmail.com</a> for technical support, feedback, or data deletion requests. Please include your iPhone model, iOS version, and a short description of what happened. We aim to reply within two business days.</p>
+
+<h2>Notifications are not arriving</h2>
+<ul>
+  <li>On each iPhone, open <strong>Settings → Apps → Pulse → Notifications</strong> and allow notifications.</li>
+  <li>Check Focus, Silent Mode, notification summaries, and Apple Watch notification routing. iOS decides whether the screen lights, a sound plays, or a watch receives the alert.</li>
+  <li>Make sure both phones have an internet connection and that the connection in Pulse still shows the other person's name.</li>
+  <li>Open Pulse once after reinstalling so the phone can register its current notification token.</li>
+</ul>
+
+<h2>Pairing two phones</h2>
+<p>Create an invite on the first phone, then enter its six-character code on the second phone. A code admits exactly two phones and closes permanently after they connect. If a connection is ended, create a new invite rather than reusing the old code.</p>
+
+<h2>Home Screen widget</h2>
+<p>Long-press the iPhone Home Screen, choose <strong>Add Widget</strong>, search for Pulse, and add <strong>Send a Pulse</strong>. The widget opens Pulse and sends only when an active two-phone connection exists.</p>
+
+<h2>Disconnecting and deleting data</h2>
+<p>Open Pulse Settings and choose <strong>Disconnect</strong> to remove that phone from the connection. For help locating and deleting a remaining connection record, email us with the six-character invite code. Pulse has no account or email address with which to identify you.</p>
+
+<h2>Privacy</h2>
+<p>Pulse has no advertising, analytics, contact access, location access, or cross-app tracking. Read the full <a href="/privacy/">Privacy Policy</a>.</p>
+
+<hr>
+<footer>
+  <a href="/">Pulse</a>
+  <a href="/privacy/">Privacy Policy</a>
+</footer>
+
+</main>
+</body>
+</html>
