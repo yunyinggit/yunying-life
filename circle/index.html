@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Circle — a personal health companion for iPhone.">
+  <title>Circle — Yunying Life</title>
+  <style>
+    :root { color-scheme:light dark; --bg:#fbfbfc; --ink:#15171a; --muted:#62666d; --rule:#e4e6ea; --accent:#e5a39c; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#101215; --ink:#f0f1f3; --muted:#a0a5ad; --rule:#2a2d33; } }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:2rem; background:var(--bg); color:var(--ink); font:400 17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(42rem,100%); }
+    .back { display:inline-block; margin-bottom:4rem; color:var(--muted); text-decoration:none; }
+    .mark { width:3.4rem; height:3.4rem; margin-bottom:2rem; border-radius:50%; background:radial-gradient(circle at 40% 35%,#fff8 0 18%,transparent 20%),linear-gradient(145deg,#f6c0b9,#d88782); box-shadow:0 0 0 .6rem color-mix(in srgb,var(--accent) 17%,transparent); }
+    h1 { margin:0 0 .7rem; font-size:clamp(3.4rem,12vw,6.5rem); line-height:.9; letter-spacing:-.065em; }
+    .lede { max-width:36rem; margin:1.2rem 0 0; color:var(--muted); font-size:1.25rem; }
+    .features { display:flex; flex-wrap:wrap; gap:.6rem; margin:2rem 0 0; padding:0; list-style:none; }
+    .features li { padding:.45rem .8rem; border:1px solid var(--rule); border-radius:999px; color:var(--muted); font-size:.9rem; }
+    nav { margin-top:4rem; padding-top:1.35rem; border-top:1px solid var(--rule); display:flex; flex-wrap:wrap; gap:1.5rem; }
+    nav a { color:var(--ink); text-underline-offset:4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="/">← Yunying Life</a>
+    <div class="mark" aria-hidden="true"></div>
+    <h1>Circle</h1>
+    <p class="lede">A personal health companion for medication reminders, daily notes, sleep, and on-device health trends.</p>
+    <ul class="features" aria-label="Circle features">
+      <li>Medication reminders</li>
+      <li>Health trends</li>
+      <li>Sleep diary</li>
+      <li>Personal notes</li>
+      <li>Health information Agent</li>
+    </ul>
+    <nav aria-label="Circle links">
+      <a href="/circle/privacy/">Privacy Policy</a>
+      <a href="/circle/support/">Support</a>
+    </nav>
+  </main>
+</body>
+</html>
