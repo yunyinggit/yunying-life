@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Folded Air（飞鸽）隐私政策。">
+  <title>Folded Air（飞鸽）— 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5f0;
+      --card: #fcfbf8;
+      --ink: #292622;
+      --muted: #77716a;
+      --rule: #d9d5cc;
+      --accent: #76504a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1d1b;
+        --card: #292724;
+        --ink: #e8e4db;
+        --muted: #a8a197;
+        --rule: #48443f;
+        --accent: #c18479;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 4.5rem 1.5rem 6rem;
+      background: var(--bg);
+      color: var(--ink);
+      font: 400 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 44rem; margin: 0 auto; }
+    header { margin-bottom: 3.5rem; }
+    .eyebrow {
+      margin: 0 0 .9rem;
+      color: var(--accent);
+      font: 600 .78rem/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font: 400 clamp(2.35rem, 8vw, 4.2rem)/.98 Georgia, "Times New Roman", serif;
+      letter-spacing: -.04em;
+    }
+    .meta { margin: 1rem 0 0; color: var(--muted); font-size: .92rem; }
+    .lede { margin: 0 0 2.5rem; color: var(--muted); font-size: 1.08rem; }
+    h2 { margin: 2.7rem 0 .7rem; font-size: 1.08rem; font-weight: 650; }
+    p { margin: 0 0 1rem; }
+    ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+    li { margin: 0 0 .55rem; }
+    a { color: inherit; text-underline-offset: 3px; }
+    .rule { margin: 3.5rem 0 1.5rem; border: 0; border-top: 1px solid var(--rule); }
+    footer { color: var(--muted); font-size: .88rem; }
+    .english { margin-top: 4.5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+    .english h2 { font-size: 1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Folded Air · 飞鸽</p>
+    <h1>隐私政策</h1>
+    <p class="meta">最后更新：2026 年 8 月 26 日</p>
+  </header>
+
+  <p class="lede">Folded Air 是一款让信件按照自己的时间抵达的 iPhone 应用。我们只收集让身份、投递和抵达通知正常工作所需要的信息，不做广告、跨应用跟踪或行为画像。</p>
+
+  <h2>我们收集什么</h2>
+  <ul>
+    <li><strong>身份信息：</strong>你填写的昵称、系统分配的 User ID，以及用于找回身份的恢复码摘要。恢复码原文只在创建或重新生成时显示给你。</li>
+    <li><strong>城市级位置：</strong>创建身份时，你可以允许应用取得大概位置。我们只保存城市和用于计算距离的粗略坐标，不保存或展示精确住址、实时位置或飞行路线。</li>
+    <li><strong>设备和会话信息：</strong>随机设备标识、登录会话令牌和 Apple 推送通知令牌，用于识别你的设备、保持身份登录并把抵达提醒送到正确的设备。</li>
+    <li><strong>信件内容：</strong>你主动写下的正文、收信人 User ID、寄出和抵达时间、距离估算、拆信时间及投递所需的内部关联信息。正文只会在信抵达后出现在收信人的信箱中。</li>
+  </ul>
+
+  <h2>我们不收集什么</h2>
+  <ul>
+    <li>不收集邮箱、手机号、通讯录、照片、相机或麦克风内容。</li>
+    <li>不使用广告标识符，不做跨应用或跨网站跟踪。</li>
+    <li>不接入分析、广告、崩溃上报或行为画像 SDK。</li>
+  </ul>
+
+  <h2>信息如何使用</h2>
+  <p>信息只用于创建和恢复你的飞鸽身份、查找收信人、计算城市之间的预计飞行时间、保存信件、显示已经抵达的来信，以及在你允许通知时发送“有一封信抵达”的提醒。寄件人的昵称、User ID 和出发城市不会作为系统元数据展示给收信人；写信人若想表明身份，需要主动写在正文里。</p>
+
+  <h2>与谁共享</h2>
+  <p>应用通过 HTTPS 与 Folded Air 的独立服务通信。抵达提醒通过 Apple Push Notification service（APNs）发送给收信人的设备。我们不向广告商、数据经纪商或其他第三方出售或出租个人信息。Apple 对 APNs 的处理受其自身隐私政策约束。</p>
+
+  <h2>保存多久</h2>
+  <p>身份、会话和信件会在提供服务所需的时间内保存。退出当前设备只会清除本机登录状态，不会删除服务器上的身份；你可以在应用的“身份与设置”中选择“删除飞鸽身份”。删除后，身份、会话、恢复码、通知令牌和收到的信件会被删除；已经寄给其他人的信件会保留在对方信箱中，但会解除与寄件人身份的关联。</p>
+
+  <h2>删除你的数据</h2>
+  <p>请在应用内打开“身份与设置”，选择“删除飞鸽身份”并确认。删除是不可撤销的。若你无法打开应用，可通过下方联系方式联系我们，并提供你的 User ID；我们会核实请求后处理。</p>
+
+  <h2>安全</h2>
+  <p>应用与服务之间使用 HTTPS。会话令牌和恢复码以不可逆摘要保存，服务端数据文件仅允许飞鸽服务进程访问。没有任何互联网传输或存储系统能够保证绝对安全，但我们会以最小化收集和限制访问的方式保护数据。</p>
+
+  <h2>儿童</h2>
+  <p>Folded Air 不面向 13 岁以下儿童，我们不会明知地收集儿童个人信息。</p>
+
+  <h2>通知</h2>
+  <p>通知权限是可选的。你可以在 iOS 设置中拒绝或随时关闭通知；即使没有通知，信件抵达后仍会在你打开应用时出现在信箱中。</p>
+
+  <h2>政策变更</h2>
+  <p>如果本政策发生变化，我们会更新本页面顶部的日期；重大变化会在应用内以适当方式说明。</p>
+
+  <h2>联系我们</h2>
+  <p>隐私问题或删除请求：<a href="mailto:0xshxyz@gmail.com">0xshxyz@gmail.com</a></p>
+
+  <section class="english" lang="en">
+    <h2>English summary</h2>
+    <p>Folded Air collects only what is needed to create and recover an identity, calculate city-level delivery estimates, store letters, and deliver arrival notifications. We may store a nickname, User ID, coarse city location, random device and session identifiers, APNs token, letter content, delivery timestamps, and an opened state. We do not use advertising IDs, analytics, behavioural profiling, or cross-app tracking. You can delete your identity and associated received letters from Identity &amp; Settings in the app. Letters already sent to another person remain in that recipient's inbox but are no longer linked to your identity.</p>
+  </section>
+
+  <hr class="rule">
+  <footer><a href="https://yunying.life/">Yunying Life</a> · Folded Air（飞鸽）</footer>
+</main>
+</body>
+</html>
