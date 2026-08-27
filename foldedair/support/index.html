@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Folded Air（飞鸽）支持与联系。">
+  <link rel="canonical" href="https://yunying.life/foldedair/support/">
+  <title>Folded Air（飞鸽）— 支持</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5f0;
+      --card: #fcfbf8;
+      --ink: #292622;
+      --muted: #77716a;
+      --rule: #d9d5cc;
+      --accent: #76504a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1d1b;
+        --card: #292724;
+        --ink: #e8e4db;
+        --muted: #a8a197;
+        --rule: #48443f;
+        --accent: #c18479;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 4.5rem 1.5rem 6rem;
+      background: var(--bg);
+      color: var(--ink);
+      font: 400 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 44rem; margin: 0 auto; }
+    .back { display: inline-block; margin-bottom: 3.2rem; color: var(--muted); text-underline-offset: 4px; }
+    .eyebrow {
+      margin: 0 0 .9rem;
+      color: var(--accent);
+      font: 600 .78rem/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font: 400 clamp(2.35rem, 8vw, 4.2rem)/.98 Georgia, "Times New Roman", serif;
+      letter-spacing: -.04em;
+    }
+    .meta { margin: 1rem 0 3.5rem; color: var(--muted); font-size: .92rem; }
+    .lede { margin: 0 0 2.5rem; color: var(--muted); font-size: 1.08rem; }
+    h2 { margin: 2.7rem 0 .7rem; font-size: 1.08rem; font-weight: 650; }
+    p { margin: 0 0 1rem; }
+    ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+    li { margin: 0 0 .55rem; }
+    a { color: inherit; text-underline-offset: 3px; }
+    .contact { padding: 1.25rem 1.35rem; background: var(--card); border: 1px solid var(--rule); border-radius: 1rem; }
+    .contact p:last-child { margin-bottom: 0; }
+    .rule { margin: 3.5rem 0 1.5rem; border: 0; border-top: 1px solid var(--rule); }
+    footer { display: flex; flex-wrap: wrap; gap: 1.25rem; color: var(--muted); font-size: .88rem; }
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="/foldedair/">← Folded Air</a>
+  <p class="eyebrow">Folded Air · 飞鸽</p>
+  <h1>支持</h1>
+  <p class="meta">帮助你让一封信顺利出发、抵达和打开</p>
+
+  <p class="lede">Folded Air 不需要密码或第三方账号。你可以用 User ID 找到收信人，把信交给飞鸽；它会按照城市之间的距离和飞行节奏抵达。</p>
+
+  <h2>联系我们</h2>
+  <div class="contact">
+    <p>如果遇到问题、需要反馈，或希望删除服务器上的数据，请发邮件给我们：</p>
+    <p><a href="mailto:0xshxyz@gmail.com?subject=Folded%20Air%20Support">0xshxyz@gmail.com</a></p>
+    <p>请尽量附上你的 iPhone 型号、iOS 版本、User ID（如方便）以及问题发生的步骤。不要发送恢复码或其他敏感内容。</p>
+  </div>
+
+  <h2>无法创建身份</h2>
+  <ul>
+    <li>昵称必须是全局唯一的；如果已被使用，请换一个昵称。</li>
+    <li>城市级位置只用于估算投递时间。拒绝定位权限后，可以在应用中选择备用城市继续。</li>
+    <li>身份创建完成后，请在“身份与设置”里保存恢复码。恢复码只在创建或重新生成时显示。</li>
+  </ul>
+
+  <h2>忘记身份或更换设备</h2>
+  <p>在首次打开页面选择“已有身份？找回账号”，输入原来的昵称和恢复码即可找回身份。同一台 iPhone 通常会通过系统钥匙串保留登录状态；如果无法找回，请联系我们。</p>
+
+  <h2>信件没有马上出现</h2>
+  <p>Folded Air 没有实时追踪、送达回执或已读回执。信件会根据寄件人和收信人的城市距离估算抵达时间，只有真正抵达后才会出现在收信人的信箱里。</p>
+
+  <h2>没有收到抵达通知</h2>
+  <ul>
+    <li>打开 <strong>设置 → App → Folded Air → 通知</strong>，确认允许通知。</li>
+    <li>检查专注模式、通知摘要和网络连接。</li>
+    <li>即使关闭了通知，打开 Folded Air 后，已抵达的信仍会出现在信箱里。</li>
+  </ul>
+
+  <h2>删除身份和数据</h2>
+  <p>在应用的“身份与设置”中选择“删除飞鸽身份”。这会删除你的身份、会话、恢复码、通知令牌和收到的信件；已经寄给其他人的信会保留在对方信箱中，但会解除与你身份的关联。删除操作不可撤销。</p>
+
+  <hr class="rule">
+  <footer>
+    <a href="/foldedair/">Folded Air</a>
+    <a href="/foldedair/privacy/">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
