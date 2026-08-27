@@ -7,4 +7,3 @@ Routes:
 - `/pulse/` and `/pulse/privacy/`
 - `/circle/` and `/circle/privacy/`
 - `/foldedair/`, `/foldedair/privacy/`, and `/foldedair/support/`
-- `/stork/privacy/` redirects to `/foldedair/privacy/`
