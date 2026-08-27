@@ -6,4 +6,4 @@ Routes:
 
 - `/pulse/` and `/pulse/privacy/`
 - `/circle/` and `/circle/privacy/`
-- `/stork/` and `/stork/privacy/`
+- `/foldedair/` and `/foldedair/privacy/` (`/stork/` and `/stork/privacy/` remain available as compatibility URLs)
